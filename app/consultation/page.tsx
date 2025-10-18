@@ -1,4 +1,3 @@
-// app/consultation/page.tsx
 import ConsultationForm from '@/components/ConsultationForm'
 
 export const metadata = {
@@ -7,5 +6,9 @@ export const metadata = {
 }
 
 export default function ConsultationPage() {
-  return <ConsultationForm />
+  return (
+    <div className="min-h-screen bg-white">
+      <ConsultationForm />
+    </div>
+  );
 }
