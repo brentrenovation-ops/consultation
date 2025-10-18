@@ -7,7 +7,7 @@ export const metadata = {
 
 export default function ConsultationPage() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="bg-white">
       <ConsultationForm />
     </div>
   );
