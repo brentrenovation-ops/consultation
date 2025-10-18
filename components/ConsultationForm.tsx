@@ -1,3 +1,5 @@
+// components/ConsultationForm.tsx - FULL CODE WITH FIXES
+
 'use client';
 
 import { useState } from 'react';
@@ -80,7 +82,7 @@ export default function ConsultationForm() {
   };
 
   return (
-    <div className="w-full max-w-6xl mx-auto px-4 sm:px-6 py-6">
+    <div className="w-full max-w-6xl mx-auto px-4 sm:px-6 pt-6 pb-2">
       
       <div className="text-center mb-6">
         <h1 className="text-3xl sm:text-5xl font-bold text-gray-900 mb-3">
@@ -107,7 +109,7 @@ export default function ConsultationForm() {
         </div>
       )}
 
-      <div className="bg-white rounded-xl shadow-lg p-6 sm:p-8">
+      <div className="bg-white rounded-xl shadow-lg p-6 sm:p-8 mb-2">
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
